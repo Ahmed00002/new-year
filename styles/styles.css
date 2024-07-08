@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --inter: "Inter", sans-serif;
+  --merry-weather: "Merriweather", serif;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+main {
+  padding: 50px 70px 0 70px;
+  margin: 0 auto;
+}
+/* main header ection */
+.main-header {
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/Banner-Image.png);
+  height: 547px;
+  width: 100%;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.main-header-content p {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.main-header-content h1 {
+  font-size: 69px;
+}
+
+/* discount section styles */
+.discount {
+  width: 80%;
+  height: 769px;
+  margin: 0 auto;
+  margin-top: 108px;
+  margin-bottom: 100px;
+}
+.discount h1 {
+  font-family: var(--inter);
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount p {
+  margin: 46px 0 15px 0;
+  color: rgb(255, 0, 0);
+  font-family: var(--inter);
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount h3 {
+  color: rgb(7, 2, 17);
+  font-family: var(--inter);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 46px;
+}
+.discount img {
+  height: 500px;
+  width: 100%;
+}
+/* party section styles */
+
+.party {
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/enjoying.png);
+  width: 100%;
+  height: 576px;
+  background-repeat: "no-repeat";
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.party-greeting {
+  width: 60%;
+  padding-left: 50px;
+}
+.party-greeting h1 {
+  color: rgb(255, 255, 255);
+  font-family: var(--merry-weather);
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 10%;
+  text-align: left;
+}
+.party-greeting p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--inter);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.party-greeting h3 {
+  color: rgb(255, 255, 255);
+  font-family: var(--inter);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.party-image {
+  width: 40%;
+}
+.party-image img {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  height: 445px;
+}
+/* styles of party schedule */
+.party-schedule {
+  border-radius: 16px;
+  margin-top: 140px;
+  height: 462px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+}
+.shedules span {
+  color: #ff0000;
+  font-family: var(--inter);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.shedules button {
+  border-radius: 8px;
+  background-color: #ff0000;
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  border: none;
+  margin-top: 45px;
+  /* font */
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* styles of best offers */
+.best-offer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 35% 25%;
+  justify-content: center;
+  margin-top: 100px;
+}
+.offer-details h3 {
+  color: rgb(255, 0, 0);
+  font-family: var(--inter);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-details h2 {
+  color: rgb(7, 2, 17);
+  font-family: var(--merry-weather);
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 15px 0 20px 0;
+}
+.offer-details p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-image {
+  height: 100%;
+}
+.offer-image img {
+  width: 290px;
+  height: 290px;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  border: 8px solid red;
+  border-radius: 360px;
+}
+.offer-year h2 {
+  color: rgb(255, 0, 0);
+  font-family: var(--inter);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-year p {
+  margin: 15px 0 45px 0;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--inter);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-year img {
+  height: 130px;
+  width: 130px;
+}
+
+/* holidays deals */
+.holidays-deal-details {
+  text-align: center;
+  margin-top: 100px;
+}
+.holidays-deal p {
+  color: rgb(7, 2, 17);
+  font-family: var(--inter);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: block;
+  padding: 23px;
+}
+.holidays-deal h2 {
+  font-family: var(--merry-weather);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0%;
+  margin: 14px 0 23px 0;
+}
+.holidays-deal h2 > span {
+  color: #ff0000;
+}
+.holidays-deal h5 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--inter);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holidays-deals-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../images/red-rectangle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.gift-box {
+  width: 80%;
+  display: block;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.discount-50 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+/* newslater section */
+.newslater {
+  margin-top: 100px;
+  border-radius: 16px;
+  padding: 60px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.newslater > img {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+.newslater h1 {
+  color: rgb(7, 2, 17);
+  font-family: var(--merry-weather);
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0 35px 0;
+}
+.newslater > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.input-section {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-section input {
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  outline: none;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.781);
+  font-family: var(--inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  width: 350px;
+  margin: 0;
+}
+.submit-btn {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: var(--inter);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  width: 210px;
+  height: 50px;
+  border: none;
+}
